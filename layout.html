@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>CHALLENGE</title>
+
+    <link rel="stylesheet" href="https://bootswatch.com/4/materia/bootstrap.min.css">
+    <link rel="stylesheet" href="{{url_for('static', filename='main.css')}}">
+  </head>
+  <body>
+
+
+    <nav class="navbar navbar-dark bg-dark">
+      <a class="navbar-brand" href="/">Usuarios Sistema Manufactura</a>
+    </nav>
+
+    <div class="container pt-4">
+      {% block body %}
+      {% endblock %}
+    </div>
+  </body>
+</html>
